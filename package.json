@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require @babel/register"
+    "test": "mocha --require @babel/register './test/spec/**.js'",
+    "performance": "artillery run "
   },
   "author": "",
   "license": "ISC",
