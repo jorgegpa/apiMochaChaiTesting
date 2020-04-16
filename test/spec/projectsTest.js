@@ -1,4 +1,4 @@
-import { } from 'dotenv/config'
+import {} from 'dotenv/config'
 import chai from 'chai'
 import chaitHttp from 'chai-http'
 
