@@ -28,7 +28,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - run: npm run performance ./performance/projects.yml  
-      env:
+    env:
         CI: true
         URL_BASE: ${{ secrets.URL_BASE }}
         API_TOKEN: ${{ secrets.API_TOKEN }}
