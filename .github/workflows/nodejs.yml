@@ -31,4 +31,4 @@ jobs:
       env:
         CI: true
         URL_BASE: ${{secrets.URL_BASE}}
-        API_KEY: ${{secrets.API_KEY}}
+        API_TOKEN: ${{secrets.API_TOKEN}}
