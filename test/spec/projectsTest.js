@@ -10,6 +10,7 @@ describe('Projects API ENDPOINTS Tests',() => {
       chai.should()
   })
 it('Get ALL Projects', () => {
+        console.log(process.env.URL_BASE)
         chai.request(process.env.URL_BASE)
         .get(PROJECTS_PATH)
         .set('Authorization','Bearer '+AUTH_TOKEN)
